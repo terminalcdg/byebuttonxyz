@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        body {
+            background-color: black;
+        }
+        .container {
+            position: relative;
+            max-width: 600px;
+            margin: auto;
+        }
+        .flex {
+            margin-top: 100px;
+            display: flex;
+            background-color: pink;
+            width: 1000px;
+        }
+        .column {
+            width: 90%;
+            height: 1000px;
+            background-color: white;
+            margin-left: 5%;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <canvas id="myChart" width="400" height="200"></canvas>
+</div>
+<div class="container flex">
+    <div class="flex">
+        <div class="column"> hello </div>
+        <div class="column"> hello </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossOrigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/1.2.2/chartjs-plugin-annotation.min.js"
+        integrity="sha512-HycvvBSFvDEVyJ0tjE2rPmymkt6XqsP/Zo96XgLRjXwn6SecQqsn+6V/7KYev66OshZZ9+f9AttCGmYqmzytiw=="
+        crossOrigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="index.js"></script>
+</body>
+</html>
