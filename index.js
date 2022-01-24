@@ -135,7 +135,7 @@ function drawChart() {
                         if (!tooltipEl) {
                             tooltipEl = document.createElement('div');
                             tooltipEl.id = 'chartjs-tooltip';
-                            document.querySelector('.container').appendChild(tooltipEl);
+                            document.querySelector('.canvas-container').appendChild(tooltipEl);
                         }
 
                         // Hide if no tooltip
